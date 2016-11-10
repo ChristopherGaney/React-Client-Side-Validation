@@ -171,6 +171,7 @@ var JoinInput = React.createClass({
 				}
 			}
 		}
+		// Call AJAX function fn() in outer wrapper
 		this.context.fn(d);
 	},
 	
